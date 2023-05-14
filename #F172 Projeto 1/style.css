@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+
+body {
+    background: linear-gradient(287.56deg, #C2E9FB 0%, #A1C4FD 100%);
+    font-size: 1.6rem;
+
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.hide{
+    display: none;
+}
+
+main {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    padding: 4.8rem 6.4rem 6.4rem;
+
+    width: min(42.8rem, 90%);
+    margin: 0 auto;
+
+    margin-top: -12rem;
+}
+
+/* screen1 */
+
+main div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+h1, h2 {
+    color: #34355B;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+}
+
+p {
+    text-align: center;
+    color: rgba(52, 53, 91, 0.8);
+    font-family: 'DM Sans';
+    font-size: 1.6rem;
+    line-height: 150%;
+}
+
+form {
+    margin-top: 4.8rem;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+
+    background: #6d6df0;
+    border-radius: 0px 4px 4px 0px;
+    align-items: center;
+    padding: 1.6rem;
+
+    color: #FFFFFF;
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+
+    border: none;
+
+    transition: background 1s;
+}
+
+input {
+    border: none;
+    padding: 1.6rem;
+    background: #DCE2E9;
+    border-radius: 4px 0px 0px 4px;
+
+    font-family: 'DM Sans';
+    color: #34355B;
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+
+    width: 7rem;
+
+}
+
+button:hover {
+    background: #3434f5;
+    cursor: pointer;
+}
+
+/* screem 2*/
+
+.screen2 button{
+    border-radius: 4px;
+    margin-top: 3.3rem;
+}
+
+.error{
+    font-size: 1rem;
+    color: red;
+    animation: shake 0.8s;
+}
+
+@keyframes shake{
+    0%{
+      transform: translateX(0)
+    }
+    25%{
+      transform: translateX(25px);
+    }
+      
+    50%{
+      transform: translateX(-25px);
+    }
+    100%{
+      transform: translateX(0px);
+    }
+  }
+
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  }
