@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    font-size: 62.5%;
+    --text-color: white;
+}
+
+body{
+    background: #121214;
+    color: var(--text-color);
+
+    font-family: 'Roboto', sans-serif;
+
+    display: grid;
+    min-height: 100vh;
+}
+main{
+    justify-self: center;
+    align-self: end;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+}
+
+#timer{
+    font-weight: 700;
+    font-size: 8.8rem;
+
+    display: flex;
+    margin-bottom: 1.6rem;
+}
+
+.controls{
+    background-color: rgba(66, 211, 255, 0.13);
+    display: flex;
+    gap: 3.2rem;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 9999px;
+
+    height: clamp(8rem, 2rem + 10vw, 10.8rem);
+    width: clamp(10rem, 10rem + 30vw, 22.8rem);
+}
+
+footer{
+    justify-self: end;
+    align-self: end;
+    padding: 0 4rem 4.2rem 0;
+}
