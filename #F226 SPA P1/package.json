@@ -1,0 +1,6 @@
+{
+  "description": "",
+  "scripts": {
+    "start": "lite-server"
+  }
+}
